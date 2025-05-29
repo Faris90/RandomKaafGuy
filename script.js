@@ -22,15 +22,13 @@ $(document).ready(function ()
 			bonzi = $("<figure/>").css({
 				top,
 				opacity,
-				/*"z-index": index,
+				"z-index": index,
 				"-webkit-transform": scale,
 				"-moz-transform": scale,
 				"-o-transform": scale,
 				"-webkit-animation-duration": duration,
 				"-moz-animation-duration": duration,
-				"-ms-animation-duration": duration,*/
-				/*"background-position-x": -(200 * Math.ceil(rand(0, 16))),
-				"background-position-y": -(160 * Math.ceil(rand(0, 20)))*/
+				"-ms-animation-duration": duration,
 			});
 
 		bonzi.addClass("bonzi");
