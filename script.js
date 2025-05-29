@@ -45,7 +45,7 @@ $(document).ready(function ()
 
 	function gogogo()
 	{
-		document.title = "Bonzi!";
+		document.title = "Gabriel!";
 		body.addClass("play");
 
 		$("#spinner").fadeOut(200);
