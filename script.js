@@ -13,12 +13,12 @@ $(document).ready(function ()
 	function newBonzi()
 	{
 		var
-			/*scale = "scale(" + rand(0.7, 1.6) + ")",
-			top = rand(-10, 100) + "%",*/
+			scale = "scale(" + rand(0.7, 1.6) + ")",
+			top = rand(-10, 100) + "%",
 			opacity = rand(0.1, 1),
-			/*index = rand(-30, 10),
+			index = rand(-30, 10),
 			duration = rand(1, 5) + "s",
-			fromLeft = dice(0, 1),*/
+			fromLeft = dice(0, 1),
 			bonzi = $("<figure/>").css({
 				top,
 				opacity,
@@ -29,6 +29,8 @@ $(document).ready(function ()
 				"-webkit-animation-duration": duration,
 				"-moz-animation-duration": duration,
 				"-ms-animation-duration": duration,
+				"background-position-x": -(200 * Math.ceil(rand(0, 16))),
+				"background-position-y": -(160 * Math.ceil(rand(0, 20)))
 			});
 
 		bonzi.addClass("bonzi");
